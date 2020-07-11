@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stopwatch</title>
+    <script type="text/javascript" src="javascript/timer.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    
+  </head>
+
+  <body style="background-color: #4bc1e8;"> 
+    <!-- Begin page content -->
+    <div class="container" style="margin-top: 50px;">
+      <div class="page-header text-center" style=" border-radius: 20%; color: white; box-shadow: 0 0 40px;">
+            
+        <h1 style="font-size: 70px; margin: 30px auto 80px auto; padding-top: 20px;">
+        Stopwatch
+        <!-- <img src="./dist/stopwatch.jpg" alt="Stopwatch" width=100px height=100px> -->
+        </h1>
+        <div style="margin-bottom: 50px;">
+          <div class="alert alert-danger" role="alert">
+            <p id="stopWatchDisplay" style="font-size:38px; font-weight:bold; font-family:cursive;">Stopwatch Display Here</p>
+          </div>
+          <div id="controls">
+            <button class="btn btn-primary btn-lg" id="startPause" onClick="startPause()"><i class="glyphicon glyphicon-play"></i> Start</button>
+            <button class="btn btn-warning btn-lg" onClick="reset()"><i class="glyphicon glyphicon-refresh"></i> Reset</button>
+          </div>
+        </div>
+      </div>
+      <div class="alert alert-warning text-center" role="alert" style="width: fit-content; margin-top: 80px;">
+        <h1>Created by: Saad Khan</h1>
+        <h2>Roll No: WM9801</h2>
+        <h3>Email: saadkhanhere@gmail.com</h3>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
